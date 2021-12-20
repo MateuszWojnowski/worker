@@ -24,3 +24,5 @@ if (@$xmlFileInString = $xmlDownloader->downloadXml("https://dlabystrzakow.pl/xm
         echo "Nie udalo sie pobrac danych ze strony.<br />Nie udalo sie pobrac danych z pliku lokalnego.<br /><br />";
     }
 }
+
+echo $json;
